@@ -1,12 +1,12 @@
 let weight = 68;
-let hight = 1.7;
+let height = 1.7;
 
-let bmi = calcBMI(weight, hight);
+let bmi = calcBMI(weight, height);
 
 console.log(bmi);
 
 // BMI計算
-function calcBMI(weight, hight) {
-  let bmi = weight / hight ** 2;
+function calcBMI(weight, height) {
+  let bmi = weight / height ** 2;
   return bmi;
 }
