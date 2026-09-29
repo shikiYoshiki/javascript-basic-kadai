@@ -20,13 +20,13 @@ const holidays = [
 // for文の場合
 console.log("for文");
 for (let i = 0; i < holidays.length; i++) {
-  console.log(holidays[i]);
+  console.log(i + ":" + holidays[i]);
 }
 
 // while文の場合
 console.log("while文");
 let j = 0;
 while (j < holidays.length) {
-  console.log(holidays[j]);
+  console.log(j + ":" + holidays[j]);
   j++;
 }
